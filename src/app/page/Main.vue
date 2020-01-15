@@ -9,13 +9,6 @@
       </keep-alive>
     </v-container>
   </v-content>
-  <v-footer>
-    <v-spacer></v-spacer>
-    <span>
-      Made with <i class="fa fa-heart throb" style="color:#d43f57"></i> by <a style="color:black; text-decoration: none;" href="https://www.cnwangjie.com/" target="_blank">WangJie</a>
-    </span>
-    <v-spacer></v-spacer>
-  </v-footer>
   <snackbar></snackbar>
 </v-app>
 </template>

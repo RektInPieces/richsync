@@ -1,9 +1,9 @@
 {
   "ext_name": {
-    "message": "better-onetab"
+    "message": "rich-sync"
   },
   "ext_desc": {
-    "message": "A better OneTab"
+    "message": "A richer and more featureful tab syncing experience."
   },
   "menu_STORE_SELECTED_TABS": {
     "message": "Store selected tabs"
@@ -102,7 +102,7 @@
     "message": "Sync lists"
   },
   "opt_name_useBoss": {
-    "message": "Use better onetab sync server (unlimited storage)"
+    "message": ":egacy sync server"
   },
   "opt_name_alertRemoveList": {
     "message": "Confirm to remove list"
@@ -432,7 +432,7 @@
     "message": "untitled"
   },
   "ui_updated_to_ver": {
-    "message": "Better Onetab has updated to"
+    "message": "Application has updated to"
   },
   "ui_click_view_changelog": {
     "message": "click to view detail changelog"

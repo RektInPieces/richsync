@@ -5,6 +5,7 @@ import browser from 'webextension-polyfill'
 
 const actions = {
   'store-selected': tabs.storeSelectedTabs,
+ // 'store-current': tabs.st 
   'show-list': tabs.openTabLists,
   'store-all': tabs.storeAllTabs,
   'store-all-in-all-windows': tabs.storeAllTabInAllWindows,

@@ -7,7 +7,7 @@ const installedEventHandler = detail => {
     const updatedNotificationId = 'updated'
     browser.notifications.onClicked.addListener(id => {
       if (id === updatedNotificationId) {
-        browser.tabs.create({ url: 'https://github.com/cnwangjie/better-onetab/blob/master/CHANGELOG.md' })
+        browser.tabs.create({ url: 'https://github.com/RektInPieces/richsync/CHANGELOG.md' })
       }
     })
     browser.notifications.create(updatedNotificationId, {

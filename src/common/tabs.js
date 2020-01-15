@@ -91,6 +91,11 @@ const storeLeftTabs = async listIndex => storeTabs((await groupTabsInCurrentWind
 const storeRightTabs = async listIndex => storeTabs((await groupTabsInCurrentWindow()).right, listIndex)
 const storeTwoSideTabs = async listIndex => storeTabs((await groupTabsInCurrentWindow()).twoSide, listIndex)
 
+const storeCurrentTab = async listIndex => {
+  const tabs = await tabs.getCurrent()
+  return storeTabs(tabs, listIndex)
+}
+
 const storeSelectedTabs = async listIndex => {
   const tabs = await getSelectedTabs()
   const allTabs = await getAllTabsInCurrentWindow()
@@ -160,6 +165,7 @@ export default {
   groupTabsInCurrentWindow,
   storeLeftTabs,
   storeRightTabs,
+  storeCurrentTab,
   storeSelectedTabs,
   storeTwoSideTabs,
   storeAllTabs,
